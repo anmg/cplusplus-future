@@ -82,13 +82,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/mingguo/CLionProjects/cplusplus-future/Singleton.cpp">
+		<Unit filename="/Users/mingguo/CLionProjects/cplusplus-future/Singleton/Singleton.cpp">
 			<Option target="cplusplus_future"/>
 		</Unit>
-		<Unit filename="/Users/mingguo/CLionProjects/cplusplus-future/Singleton.h">
+		<Unit filename="/Users/mingguo/CLionProjects/cplusplus-future/Singleton/Singleton.h">
 			<Option target="cplusplus_future"/>
 		</Unit>
-		<Unit filename="/Users/mingguo/CLionProjects/cplusplus-future/Singleton_main_">
+		<Unit filename="/Users/mingguo/CLionProjects/cplusplus-future/Singleton/main.cpp">
 			<Option target="cplusplus_future"/>
 		</Unit>
 		<Unit filename="/Users/mingguo/CLionProjects/cplusplus-future/main.cpp">

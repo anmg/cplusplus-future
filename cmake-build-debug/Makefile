@@ -123,32 +123,59 @@ cplusplus_future/fast:
 	$(MAKE) -f CMakeFiles/cplusplus_future.dir/build.make CMakeFiles/cplusplus_future.dir/build
 .PHONY : cplusplus_future/fast
 
-Singleton.o: Singleton.cpp.o
+Singleton/Singleton.o: Singleton/Singleton.cpp.o
 
-.PHONY : Singleton.o
+.PHONY : Singleton/Singleton.o
 
 # target to build an object file
-Singleton.cpp.o:
-	$(MAKE) -f CMakeFiles/cplusplus_future.dir/build.make CMakeFiles/cplusplus_future.dir/Singleton.cpp.o
-.PHONY : Singleton.cpp.o
+Singleton/Singleton.cpp.o:
+	$(MAKE) -f CMakeFiles/cplusplus_future.dir/build.make CMakeFiles/cplusplus_future.dir/Singleton/Singleton.cpp.o
+.PHONY : Singleton/Singleton.cpp.o
 
-Singleton.i: Singleton.cpp.i
+Singleton/Singleton.i: Singleton/Singleton.cpp.i
 
-.PHONY : Singleton.i
+.PHONY : Singleton/Singleton.i
 
 # target to preprocess a source file
-Singleton.cpp.i:
-	$(MAKE) -f CMakeFiles/cplusplus_future.dir/build.make CMakeFiles/cplusplus_future.dir/Singleton.cpp.i
-.PHONY : Singleton.cpp.i
+Singleton/Singleton.cpp.i:
+	$(MAKE) -f CMakeFiles/cplusplus_future.dir/build.make CMakeFiles/cplusplus_future.dir/Singleton/Singleton.cpp.i
+.PHONY : Singleton/Singleton.cpp.i
 
-Singleton.s: Singleton.cpp.s
+Singleton/Singleton.s: Singleton/Singleton.cpp.s
 
-.PHONY : Singleton.s
+.PHONY : Singleton/Singleton.s
 
 # target to generate assembly for a file
-Singleton.cpp.s:
-	$(MAKE) -f CMakeFiles/cplusplus_future.dir/build.make CMakeFiles/cplusplus_future.dir/Singleton.cpp.s
-.PHONY : Singleton.cpp.s
+Singleton/Singleton.cpp.s:
+	$(MAKE) -f CMakeFiles/cplusplus_future.dir/build.make CMakeFiles/cplusplus_future.dir/Singleton/Singleton.cpp.s
+.PHONY : Singleton/Singleton.cpp.s
+
+Singleton/main.o: Singleton/main.cpp.o
+
+.PHONY : Singleton/main.o
+
+# target to build an object file
+Singleton/main.cpp.o:
+	$(MAKE) -f CMakeFiles/cplusplus_future.dir/build.make CMakeFiles/cplusplus_future.dir/Singleton/main.cpp.o
+.PHONY : Singleton/main.cpp.o
+
+Singleton/main.i: Singleton/main.cpp.i
+
+.PHONY : Singleton/main.i
+
+# target to preprocess a source file
+Singleton/main.cpp.i:
+	$(MAKE) -f CMakeFiles/cplusplus_future.dir/build.make CMakeFiles/cplusplus_future.dir/Singleton/main.cpp.i
+.PHONY : Singleton/main.cpp.i
+
+Singleton/main.s: Singleton/main.cpp.s
+
+.PHONY : Singleton/main.s
+
+# target to generate assembly for a file
+Singleton/main.cpp.s:
+	$(MAKE) -f CMakeFiles/cplusplus_future.dir/build.make CMakeFiles/cplusplus_future.dir/Singleton/main.cpp.s
+.PHONY : Singleton/main.cpp.s
 
 main.o: main.cpp.o
 
@@ -186,9 +213,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... cplusplus_future"
-	@echo "... Singleton.o"
-	@echo "... Singleton.i"
-	@echo "... Singleton.s"
+	@echo "... Singleton/Singleton.o"
+	@echo "... Singleton/Singleton.i"
+	@echo "... Singleton/Singleton.s"
+	@echo "... Singleton/main.o"
+	@echo "... Singleton/main.i"
+	@echo "... Singleton/main.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

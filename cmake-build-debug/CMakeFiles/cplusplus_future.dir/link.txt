@@ -1,1 +1,1 @@
-/Library/Developer/CommandLineTools/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cplusplus_future.dir/Singleton.cpp.o CMakeFiles/cplusplus_future.dir/main.cpp.o  -o cplusplus_future 
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cplusplus_future.dir/Singleton/main.cpp.o CMakeFiles/cplusplus_future.dir/Singleton/Singleton.cpp.o CMakeFiles/cplusplus_future.dir/main.cpp.o  -o cplusplus_future 

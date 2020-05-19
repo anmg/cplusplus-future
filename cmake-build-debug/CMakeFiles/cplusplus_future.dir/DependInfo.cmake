@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/mingguo/CLionProjects/cplusplus-future/Singleton.cpp" "/Users/mingguo/CLionProjects/cplusplus-future/cmake-build-debug/CMakeFiles/cplusplus_future.dir/Singleton.cpp.o"
+  "/Users/mingguo/CLionProjects/cplusplus-future/Singleton/Singleton.cpp" "/Users/mingguo/CLionProjects/cplusplus-future/cmake-build-debug/CMakeFiles/cplusplus_future.dir/Singleton/Singleton.cpp.o"
+  "/Users/mingguo/CLionProjects/cplusplus-future/Singleton/main.cpp" "/Users/mingguo/CLionProjects/cplusplus-future/cmake-build-debug/CMakeFiles/cplusplus_future.dir/Singleton/main.cpp.o"
   "/Users/mingguo/CLionProjects/cplusplus-future/main.cpp" "/Users/mingguo/CLionProjects/cplusplus-future/cmake-build-debug/CMakeFiles/cplusplus_future.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

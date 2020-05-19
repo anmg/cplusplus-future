@@ -57,22 +57,35 @@ include CMakeFiles/cplusplus_future.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/cplusplus_future.dir/flags.make
 
-CMakeFiles/cplusplus_future.dir/Singleton.cpp.o: CMakeFiles/cplusplus_future.dir/flags.make
-CMakeFiles/cplusplus_future.dir/Singleton.cpp.o: ../Singleton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mingguo/CLionProjects/cplusplus-future/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cplusplus_future.dir/Singleton.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cplusplus_future.dir/Singleton.cpp.o -c /Users/mingguo/CLionProjects/cplusplus-future/Singleton.cpp
+CMakeFiles/cplusplus_future.dir/Singleton/main.cpp.o: CMakeFiles/cplusplus_future.dir/flags.make
+CMakeFiles/cplusplus_future.dir/Singleton/main.cpp.o: ../Singleton/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mingguo/CLionProjects/cplusplus-future/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cplusplus_future.dir/Singleton/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cplusplus_future.dir/Singleton/main.cpp.o -c /Users/mingguo/CLionProjects/cplusplus-future/Singleton/main.cpp
 
-CMakeFiles/cplusplus_future.dir/Singleton.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cplusplus_future.dir/Singleton.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mingguo/CLionProjects/cplusplus-future/Singleton.cpp > CMakeFiles/cplusplus_future.dir/Singleton.cpp.i
+CMakeFiles/cplusplus_future.dir/Singleton/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cplusplus_future.dir/Singleton/main.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mingguo/CLionProjects/cplusplus-future/Singleton/main.cpp > CMakeFiles/cplusplus_future.dir/Singleton/main.cpp.i
 
-CMakeFiles/cplusplus_future.dir/Singleton.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cplusplus_future.dir/Singleton.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mingguo/CLionProjects/cplusplus-future/Singleton.cpp -o CMakeFiles/cplusplus_future.dir/Singleton.cpp.s
+CMakeFiles/cplusplus_future.dir/Singleton/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cplusplus_future.dir/Singleton/main.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mingguo/CLionProjects/cplusplus-future/Singleton/main.cpp -o CMakeFiles/cplusplus_future.dir/Singleton/main.cpp.s
+
+CMakeFiles/cplusplus_future.dir/Singleton/Singleton.cpp.o: CMakeFiles/cplusplus_future.dir/flags.make
+CMakeFiles/cplusplus_future.dir/Singleton/Singleton.cpp.o: ../Singleton/Singleton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mingguo/CLionProjects/cplusplus-future/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cplusplus_future.dir/Singleton/Singleton.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cplusplus_future.dir/Singleton/Singleton.cpp.o -c /Users/mingguo/CLionProjects/cplusplus-future/Singleton/Singleton.cpp
+
+CMakeFiles/cplusplus_future.dir/Singleton/Singleton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cplusplus_future.dir/Singleton/Singleton.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mingguo/CLionProjects/cplusplus-future/Singleton/Singleton.cpp > CMakeFiles/cplusplus_future.dir/Singleton/Singleton.cpp.i
+
+CMakeFiles/cplusplus_future.dir/Singleton/Singleton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cplusplus_future.dir/Singleton/Singleton.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mingguo/CLionProjects/cplusplus-future/Singleton/Singleton.cpp -o CMakeFiles/cplusplus_future.dir/Singleton/Singleton.cpp.s
 
 CMakeFiles/cplusplus_future.dir/main.cpp.o: CMakeFiles/cplusplus_future.dir/flags.make
 CMakeFiles/cplusplus_future.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mingguo/CLionProjects/cplusplus-future/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cplusplus_future.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mingguo/CLionProjects/cplusplus-future/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cplusplus_future.dir/main.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cplusplus_future.dir/main.cpp.o -c /Users/mingguo/CLionProjects/cplusplus-future/main.cpp
 
 CMakeFiles/cplusplus_future.dir/main.cpp.i: cmake_force
@@ -85,17 +98,19 @@ CMakeFiles/cplusplus_future.dir/main.cpp.s: cmake_force
 
 # Object files for target cplusplus_future
 cplusplus_future_OBJECTS = \
-"CMakeFiles/cplusplus_future.dir/Singleton.cpp.o" \
+"CMakeFiles/cplusplus_future.dir/Singleton/main.cpp.o" \
+"CMakeFiles/cplusplus_future.dir/Singleton/Singleton.cpp.o" \
 "CMakeFiles/cplusplus_future.dir/main.cpp.o"
 
 # External object files for target cplusplus_future
 cplusplus_future_EXTERNAL_OBJECTS =
 
-cplusplus_future: CMakeFiles/cplusplus_future.dir/Singleton.cpp.o
+cplusplus_future: CMakeFiles/cplusplus_future.dir/Singleton/main.cpp.o
+cplusplus_future: CMakeFiles/cplusplus_future.dir/Singleton/Singleton.cpp.o
 cplusplus_future: CMakeFiles/cplusplus_future.dir/main.cpp.o
 cplusplus_future: CMakeFiles/cplusplus_future.dir/build.make
 cplusplus_future: CMakeFiles/cplusplus_future.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mingguo/CLionProjects/cplusplus-future/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable cplusplus_future"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mingguo/CLionProjects/cplusplus-future/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable cplusplus_future"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cplusplus_future.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

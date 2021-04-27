@@ -177,6 +177,60 @@ Singleton/main.cpp.s:
 	$(MAKE) -f CMakeFiles/cplusplus_future.dir/build.make CMakeFiles/cplusplus_future.dir/Singleton/main.cpp.s
 .PHONY : Singleton/main.cpp.s
 
+algorithm/algorithm.o: algorithm/algorithm.cpp.o
+
+.PHONY : algorithm/algorithm.o
+
+# target to build an object file
+algorithm/algorithm.cpp.o:
+	$(MAKE) -f CMakeFiles/cplusplus_future.dir/build.make CMakeFiles/cplusplus_future.dir/algorithm/algorithm.cpp.o
+.PHONY : algorithm/algorithm.cpp.o
+
+algorithm/algorithm.i: algorithm/algorithm.cpp.i
+
+.PHONY : algorithm/algorithm.i
+
+# target to preprocess a source file
+algorithm/algorithm.cpp.i:
+	$(MAKE) -f CMakeFiles/cplusplus_future.dir/build.make CMakeFiles/cplusplus_future.dir/algorithm/algorithm.cpp.i
+.PHONY : algorithm/algorithm.cpp.i
+
+algorithm/algorithm.s: algorithm/algorithm.cpp.s
+
+.PHONY : algorithm/algorithm.s
+
+# target to generate assembly for a file
+algorithm/algorithm.cpp.s:
+	$(MAKE) -f CMakeFiles/cplusplus_future.dir/build.make CMakeFiles/cplusplus_future.dir/algorithm/algorithm.cpp.s
+.PHONY : algorithm/algorithm.cpp.s
+
+algorithm/main.o: algorithm/main.cpp.o
+
+.PHONY : algorithm/main.o
+
+# target to build an object file
+algorithm/main.cpp.o:
+	$(MAKE) -f CMakeFiles/cplusplus_future.dir/build.make CMakeFiles/cplusplus_future.dir/algorithm/main.cpp.o
+.PHONY : algorithm/main.cpp.o
+
+algorithm/main.i: algorithm/main.cpp.i
+
+.PHONY : algorithm/main.i
+
+# target to preprocess a source file
+algorithm/main.cpp.i:
+	$(MAKE) -f CMakeFiles/cplusplus_future.dir/build.make CMakeFiles/cplusplus_future.dir/algorithm/main.cpp.i
+.PHONY : algorithm/main.cpp.i
+
+algorithm/main.s: algorithm/main.cpp.s
+
+.PHONY : algorithm/main.s
+
+# target to generate assembly for a file
+algorithm/main.cpp.s:
+	$(MAKE) -f CMakeFiles/cplusplus_future.dir/build.make CMakeFiles/cplusplus_future.dir/algorithm/main.cpp.s
+.PHONY : algorithm/main.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -219,6 +273,12 @@ help:
 	@echo "... Singleton/main.o"
 	@echo "... Singleton/main.i"
 	@echo "... Singleton/main.s"
+	@echo "... algorithm/algorithm.o"
+	@echo "... algorithm/algorithm.i"
+	@echo "... algorithm/algorithm.s"
+	@echo "... algorithm/main.o"
+	@echo "... algorithm/main.i"
+	@echo "... algorithm/main.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

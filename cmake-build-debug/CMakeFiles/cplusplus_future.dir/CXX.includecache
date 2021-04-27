@@ -6,21 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/Users/mingguo/CLionProjects/cplusplus-future/Singleton/main.cpp
-stdio.h
--
-iostream
--
-stdlib.h
--
-unistd.h
--
-pthread.h
--
-./Singleton/Singleton.h
-/Users/mingguo/CLionProjects/cplusplus-future/Singleton/Singleton/Singleton.h
-
 /Users/mingguo/CLionProjects/cplusplus-future/main.cpp
 iostream
 /Users/mingguo/CLionProjects/cplusplus-future/iostream
+vector
+-
+unordered_map
+-
+math.h
+/Users/mingguo/CLionProjects/cplusplus-future/math.h
+any
+-
+iostream
+-
 

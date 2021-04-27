@@ -91,6 +91,15 @@
 		<Unit filename="/Users/mingguo/CLionProjects/cplusplus-future/Singleton/main.cpp">
 			<Option target="cplusplus_future"/>
 		</Unit>
+		<Unit filename="/Users/mingguo/CLionProjects/cplusplus-future/algorithm/algorithm.cpp">
+			<Option target="cplusplus_future"/>
+		</Unit>
+		<Unit filename="/Users/mingguo/CLionProjects/cplusplus-future/algorithm/algorithm.h">
+			<Option target="cplusplus_future"/>
+		</Unit>
+		<Unit filename="/Users/mingguo/CLionProjects/cplusplus-future/algorithm/main.cpp">
+			<Option target="cplusplus_future"/>
+		</Unit>
 		<Unit filename="/Users/mingguo/CLionProjects/cplusplus-future/main.cpp">
 			<Option target="cplusplus_future"/>
 		</Unit>

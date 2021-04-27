@@ -30,25 +30,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61e34762-3287-4465-9ef0-fe79e9046fa9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/algorithm/algorithm.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/algorithm.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Singleton.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Singleton/Singleton.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Singleton.h" beforeDir="false" afterPath="$PROJECT_DIR$/Singleton/Singleton.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Singleton_main_" beforeDir="false" afterPath="$PROJECT_DIR$/Singleton/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Singleton/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Singleton/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cplusplus_future.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cplusplus_future.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cplusplus_future.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cplusplus_future.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cplusplus_future.dir/Singleton.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cplusplus_future.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cplusplus_future.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cplusplus_future.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cplusplus_future.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cplusplus_future.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cplusplus_future.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cplusplus_future.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cplusplus_future.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cplusplus_future.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cplusplus_future.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cplusplus_future.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cplusplus_future.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cplusplus_future.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cplusplus_future.dir/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cplusplus_future.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cplusplus_future.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cplusplus_future" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cplusplus_future" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cplusplus_future" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/cplusplus_future.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cplusplus_future.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cplusplus_future.dSYM/Contents/Resources/DWARF/cplusplus_future" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cplusplus_future.dSYM/Contents/Resources/DWARF/cplusplus_future" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,9 +75,12 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/algorithm" />
       <recent name="$PROJECT_DIR$/Singleton" />
     </key>
   </component>
@@ -94,7 +101,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589888938085</updated>
-      <workItem from="1589888939452" duration="4089000" />
+      <workItem from="1589888939452" duration="29094000" />
     </task>
     <servers />
   </component>
@@ -113,45 +120,69 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1589900636593">
+    <state x="619" y="210" key="#xdebugger.XInspectDialog" timestamp="1590196501003">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1589892456569" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1589900636593" />
+    <state x="619" y="210" key="#xdebugger.XInspectDialog/0.0.1440.900@0.0.1440.900" timestamp="1590196501003" />
+    <state x="779" y="159" key="#xdebugger.evaluate" timestamp="1590223941392">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="779" y="159" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1590223941392" />
+    <state width="1398" height="304" key="GridCell.Tab.0.bottom" timestamp="1591538243107">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1589951896851" />
+    <state width="1398" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591538243107" />
     <state width="1398" height="214" key="GridCell.Tab.0.bottom/0.23.1440.827/1440.23.1920.1057@0.23.1440.827" timestamp="1589889068155" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1589900636592">
+    <state width="1398" height="304" key="GridCell.Tab.0.center" timestamp="1591538243105">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1589892456567" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1589900636592" />
+    <state width="1398" height="304" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1589951896849" />
+    <state width="1398" height="304" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591538243105" />
     <state width="1398" height="214" key="GridCell.Tab.0.center/0.23.1440.827/1440.23.1920.1057@0.23.1440.827" timestamp="1589889068154" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1589900636592">
+    <state width="1398" height="304" key="GridCell.Tab.0.left" timestamp="1591538243104">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1589892456566" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1589900636592" />
+    <state width="1398" height="304" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1589951896848" />
+    <state width="1398" height="304" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591538243104" />
     <state width="1398" height="214" key="GridCell.Tab.0.left/0.23.1440.827/1440.23.1920.1057@0.23.1440.827" timestamp="1589889068154" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1589900636593">
+    <state width="1398" height="304" key="GridCell.Tab.0.right" timestamp="1591538243106">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1589892456568" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1589900636593" />
+    <state width="1398" height="304" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1589951896850" />
+    <state width="1398" height="304" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591538243106" />
     <state width="1398" height="214" key="GridCell.Tab.0.right/0.23.1440.827/1440.23.1920.1057@0.23.1440.827" timestamp="1589889068155" />
-    <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1589890327010">
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1591538243113">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1589890327010" />
-    <state width="1398" height="304" key="GridCell.Tab.1.center" timestamp="1589890327009">
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1589951897599" />
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591538243113" />
+    <state width="1398" height="304" key="GridCell.Tab.1.center" timestamp="1591538243111">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.center/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1589890327009" />
-    <state width="1398" height="304" key="GridCell.Tab.1.left" timestamp="1589890327009">
+    <state width="1398" height="304" key="GridCell.Tab.1.center/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1589951897597" />
+    <state width="1398" height="304" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1591538243111" />
+    <state width="1398" height="304" key="GridCell.Tab.1.left" timestamp="1591538243110">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.left/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1589890327009" />
-    <state width="1398" height="304" key="GridCell.Tab.1.right" timestamp="1589890327010">
+    <state width="1398" height="304" key="GridCell.Tab.1.left/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1589951897596" />
+    <state width="1398" height="304" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1591538243110" />
+    <state width="1398" height="304" key="GridCell.Tab.1.right" timestamp="1591538243112">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.right/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1589890327010" />
+    <state width="1398" height="304" key="GridCell.Tab.1.right/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1589951897598" />
+    <state width="1398" height="304" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1591538243112" />
+    <state x="229" y="89" key="SettingsEditor" timestamp="1590235800550">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1590235800550" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="nums[0]" language="ObjectiveC" />
+        <watch expression="nums[1]" language="ObjectiveC" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

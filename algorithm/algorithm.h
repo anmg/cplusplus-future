@@ -1,0 +1,9 @@
+//
+// Created by mingguo on 2020/5/24.
+//
+
+#ifndef CPLUSPLUS_FUTURE_ALGORITHM_H
+#define CPLUSPLUS_FUTURE_ALGORITHM_H
+
+#endif //CPLUSPLUS_FUTURE_ALGORITHM_H
+

@@ -6,6 +6,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/mingguo/CLionProjects/cplusplus-future/Singleton/Singleton.cpp" "/Users/mingguo/CLionProjects/cplusplus-future/cmake-build-debug/CMakeFiles/cplusplus_future.dir/Singleton/Singleton.cpp.o"
   "/Users/mingguo/CLionProjects/cplusplus-future/Singleton/main.cpp" "/Users/mingguo/CLionProjects/cplusplus-future/cmake-build-debug/CMakeFiles/cplusplus_future.dir/Singleton/main.cpp.o"
+  "/Users/mingguo/CLionProjects/cplusplus-future/algorithm/algorithm.cpp" "/Users/mingguo/CLionProjects/cplusplus-future/cmake-build-debug/CMakeFiles/cplusplus_future.dir/algorithm/algorithm.cpp.o"
+  "/Users/mingguo/CLionProjects/cplusplus-future/algorithm/main.cpp" "/Users/mingguo/CLionProjects/cplusplus-future/cmake-build-debug/CMakeFiles/cplusplus_future.dir/algorithm/main.cpp.o"
   "/Users/mingguo/CLionProjects/cplusplus-future/main.cpp" "/Users/mingguo/CLionProjects/cplusplus-future/cmake-build-debug/CMakeFiles/cplusplus_future.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

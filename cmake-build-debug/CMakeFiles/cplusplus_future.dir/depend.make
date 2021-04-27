@@ -6,5 +6,9 @@ CMakeFiles/cplusplus_future.dir/Singleton/Singleton.cpp.o: ../Singleton/Singleto
 
 CMakeFiles/cplusplus_future.dir/Singleton/main.cpp.o: ../Singleton/main.cpp
 
+CMakeFiles/cplusplus_future.dir/algorithm/algorithm.cpp.o: ../algorithm/algorithm.cpp
+
+CMakeFiles/cplusplus_future.dir/algorithm/main.cpp.o: ../algorithm/main.cpp
+
 CMakeFiles/cplusplus_future.dir/main.cpp.o: ../main.cpp
 

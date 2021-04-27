@@ -96,11 +96,39 @@ CMakeFiles/cplusplus_future.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cplusplus_future.dir/main.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mingguo/CLionProjects/cplusplus-future/main.cpp -o CMakeFiles/cplusplus_future.dir/main.cpp.s
 
+CMakeFiles/cplusplus_future.dir/algorithm/algorithm.cpp.o: CMakeFiles/cplusplus_future.dir/flags.make
+CMakeFiles/cplusplus_future.dir/algorithm/algorithm.cpp.o: ../algorithm/algorithm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mingguo/CLionProjects/cplusplus-future/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cplusplus_future.dir/algorithm/algorithm.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cplusplus_future.dir/algorithm/algorithm.cpp.o -c /Users/mingguo/CLionProjects/cplusplus-future/algorithm/algorithm.cpp
+
+CMakeFiles/cplusplus_future.dir/algorithm/algorithm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cplusplus_future.dir/algorithm/algorithm.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mingguo/CLionProjects/cplusplus-future/algorithm/algorithm.cpp > CMakeFiles/cplusplus_future.dir/algorithm/algorithm.cpp.i
+
+CMakeFiles/cplusplus_future.dir/algorithm/algorithm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cplusplus_future.dir/algorithm/algorithm.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mingguo/CLionProjects/cplusplus-future/algorithm/algorithm.cpp -o CMakeFiles/cplusplus_future.dir/algorithm/algorithm.cpp.s
+
+CMakeFiles/cplusplus_future.dir/algorithm/main.cpp.o: CMakeFiles/cplusplus_future.dir/flags.make
+CMakeFiles/cplusplus_future.dir/algorithm/main.cpp.o: ../algorithm/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mingguo/CLionProjects/cplusplus-future/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cplusplus_future.dir/algorithm/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cplusplus_future.dir/algorithm/main.cpp.o -c /Users/mingguo/CLionProjects/cplusplus-future/algorithm/main.cpp
+
+CMakeFiles/cplusplus_future.dir/algorithm/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cplusplus_future.dir/algorithm/main.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mingguo/CLionProjects/cplusplus-future/algorithm/main.cpp > CMakeFiles/cplusplus_future.dir/algorithm/main.cpp.i
+
+CMakeFiles/cplusplus_future.dir/algorithm/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cplusplus_future.dir/algorithm/main.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mingguo/CLionProjects/cplusplus-future/algorithm/main.cpp -o CMakeFiles/cplusplus_future.dir/algorithm/main.cpp.s
+
 # Object files for target cplusplus_future
 cplusplus_future_OBJECTS = \
 "CMakeFiles/cplusplus_future.dir/Singleton/main.cpp.o" \
 "CMakeFiles/cplusplus_future.dir/Singleton/Singleton.cpp.o" \
-"CMakeFiles/cplusplus_future.dir/main.cpp.o"
+"CMakeFiles/cplusplus_future.dir/main.cpp.o" \
+"CMakeFiles/cplusplus_future.dir/algorithm/algorithm.cpp.o" \
+"CMakeFiles/cplusplus_future.dir/algorithm/main.cpp.o"
 
 # External object files for target cplusplus_future
 cplusplus_future_EXTERNAL_OBJECTS =
@@ -108,9 +136,11 @@ cplusplus_future_EXTERNAL_OBJECTS =
 cplusplus_future: CMakeFiles/cplusplus_future.dir/Singleton/main.cpp.o
 cplusplus_future: CMakeFiles/cplusplus_future.dir/Singleton/Singleton.cpp.o
 cplusplus_future: CMakeFiles/cplusplus_future.dir/main.cpp.o
+cplusplus_future: CMakeFiles/cplusplus_future.dir/algorithm/algorithm.cpp.o
+cplusplus_future: CMakeFiles/cplusplus_future.dir/algorithm/main.cpp.o
 cplusplus_future: CMakeFiles/cplusplus_future.dir/build.make
 cplusplus_future: CMakeFiles/cplusplus_future.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mingguo/CLionProjects/cplusplus-future/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable cplusplus_future"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mingguo/CLionProjects/cplusplus-future/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable cplusplus_future"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cplusplus_future.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
